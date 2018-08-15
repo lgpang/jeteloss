@@ -2,6 +2,16 @@
 
 ## Introduction
 
+This python package is a simple tool to extract mean pt loss and pt loss distribution
+from measured jet RAA, using Bayesian analysis.
+
+## Citation
+
+If you have used this package to produce presentation/publications, please cite
+the following two papers, from where one can find the detailed information of 
+the underlying physics.
+
+
 ## Installation
 
 ### Method 1: using pip
@@ -11,7 +21,26 @@ Step 1:
 Step 2:
 > git clone 
 
-### Method 2: using anaconda
+Step 3:
+> cd jeteloss/examples
+
+> python example1.py
+
+### Method 2: install from local directory
+Step 1: download the code from github
+> git clone 
+
+Step 2: install jeteloss and dependences
+> cd jeteloss
+
+> python setup.py install
+
+Step 3: run example code
+> cd examples
+
+> python example1.py
+
+### Method 3: using anaconda
 
 Step 1: To create one clean python virtual environment 
 > conda create -n test_jeteloss python=3.6
@@ -24,20 +53,19 @@ Step 3: Install jeteloss module and its dependences
 
 Step 4: Run the example code downloaded using:
 > git clone *
-> cd examples
+
+> cd jeteloss/examples
+
 > python example1.py
 
-Step 5: Run the example code using your own RAA data:
-
-Step 6: To deactivate an active environment, use:
+Step 5: To deactivate an active environment, use:
 > source deactivate
 
 Step 6: Clean up
 To see how many environments do you have, use:
 > conda env list
+
 To remove one environment, use:
 > conda remove --name myenv --all
 
-
-## Citation
 
