@@ -1,4 +1,5 @@
 # Data driven extraction of jet energy loss distributions in heavy ion collisions
+Code Authors: Long-Gang Pang, Ya-Yun He and Xin-Nian Wang
 
 ## Introduction
 
