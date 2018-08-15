@@ -6,13 +6,13 @@ with open("README.md", "r") as fh:
 
 setup(
     name='jeteloss',  
-    version='0.2',   
+    version='0.5',   
     author = "Long-Gang Pang, Ya-Yun He and Xin-Nian Wang",
     author_email = "lgpang@qq.com, heyayun@gmail.com, xnwang@lbl.gov",
     description = "Data-driven extraction of jet energy loss distributions in heavy-ion collisions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/snowhitiger/jeteloss",
+    url="git@github.com:lgpang/jeteloss.git",
     packages=find_packages(),
     include_package_data=True,
     exclude_package_date={'':['.gitignore']},
@@ -26,7 +26,7 @@ setup(
     license = "MIT",
     keywords = "Bayesian, MCMC, Jet energy loss extractor, RAA",
     classifiers=(
-        #"Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),

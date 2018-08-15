@@ -9,14 +9,16 @@ from the experimental single jet RAA for AA collisions at a specific beam energy
 pt spectra (without pt spectra in proton+proton collisions).
 
 Example:
-    >>> from jeteloss import PythiaPP, RAA2Eloss
-    >>> pp_x, pp_y = PythiaPP(sqrts_in_gev = 2760)
-    >>> raa_fname = "RAA_2760.txt"
-    >>> eloss = RAA2Eloss(raa_fname, pp_x, pp_y)
-    >>> eloss.train()
-    >>> eloss.save_results()
-    >>> eloss.plot_mean_ptloss()
-    >>> eloss.plot_pt_loss_dist()
+```python
+from jeteloss import PythiaPP, RAA2Eloss
+pp_x, pp_y = PythiaPP(sqrts_in_gev = 2760)
+raa_fname = "RAA_2760.txt"
+eloss = RAA2Eloss(raa_fname, pp_x, pp_y)
+eloss.train()
+eloss.save_results()
+eloss.plot_mean_ptloss()
+eloss.plot_pt_loss_dist()
+```
 
 ## Citation
 
