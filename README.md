@@ -2,8 +2,21 @@
 
 ## Introduction
 
-This python package is a simple tool to extract mean pt loss and pt loss distribution
-from measured jet RAA, using Bayesian analysis.
+This python package is a simple tool to extract mean pt loss $P(\Delta p_T)$,
+and the mean pt loss as a function of jet pt -- $\langle\Delta p_T\rangle(p_T)$,
+from the experimental single jet RAA for AA collisions at a specific beam energy 
+(with pt spectra in proton+proton collisions at the same beam energy) or the single hadron/gamma hadron
+pt spectra (without pt spectra in proton+proton collisions).
+
+Example:
+    >>> from jeteloss import PythiaPP, RAA2Eloss
+    >>> pp_x, pp_y = PythiaPP(sqrts_in_gev = 2760)
+    >>> raa_fname = "RAA_2760.txt"
+    >>> eloss = RAA2Eloss(raa_fname, pp_x, pp_y)
+    >>> eloss.train()
+    >>> eloss.save_results()
+    >>> eloss.plot_mean_ptloss()
+    >>> eloss.plot_pt_loss_dist()
 
 ## Citation
 
@@ -67,3 +80,4 @@ To see how many environments do you have, use:
 
 To remove one environment, use:
 > conda remove --name test_jeteloss --all
+
