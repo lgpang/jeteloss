@@ -20,6 +20,10 @@ eloss.save_results()
 eloss.plot_mean_ptloss()
 eloss.plot_pt_loss_dist()
 ```
+The format of input data "RAA_2760.txt":
+The first row is the comment row start with "#" and data description for the following columns,
+"RAA_x, RAA_xerr, RAA_y, RAA_yerr" where RAA_x is the pt bins, RAA_xerr is the uncertainties of these pt bins, RAA_y is the RAA value in one A+A collisions, RAA_yerr is the uncertainties of RAA_y.
+
 
 ## Citation
 
