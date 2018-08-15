@@ -13,7 +13,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/snowhitiger/jeteloss",
-    packages=find_packages('jeteloss'),
+    packages=find_packages(),
     include_package_data=True,
     exclude_package_date={'':['.gitignore']},
     install_requires=[
