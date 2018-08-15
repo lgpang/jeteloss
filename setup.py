@@ -12,7 +12,7 @@ setup(
     description = "Data-driven extraction of jet energy loss distributions in heavy-ion collisions",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="git@github.com:lgpang/jeteloss.git",
+    url="https://github.com/lgpang/jeteloss",
     packages=find_packages(),
     include_package_data=True,
     exclude_package_date={'':['.gitignore']},
