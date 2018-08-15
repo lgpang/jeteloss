@@ -29,7 +29,7 @@ Example:
     >>> pp_x, pp_y = PythiaPP(sqrts_in_gev = 2760)
     >>> raa_fname = "RAA_pbpb2760.dat"
     >>> eloss = RAA2Eloss(raa_fname, pp_x, pp_y)
-    >>> eloss.train(steps=2000, burn=1000, thin=2)
+    >>> eloss.train(steps=20000, burn=10000, thin=2)
     >>> eloss.save_results()
     >>> jet_pt = np.linspace(1, 400, 200)
     >>> eloss.plot_mean_ptloss(jet_pt)
@@ -43,7 +43,7 @@ from jeteloss import PythiaPP, RAA2Eloss
 pp_x, pp_y = PythiaPP(sqrts_in_gev = 2760)
 raa_fname = os.path.join('.', "RAA_2760.txt")
 eloss = RAA2Eloss(raa_fname, pp_x, pp_y)
-eloss.train(steps=2000, burn=1000, thin=2)
+eloss.train(steps=20000, burn=10000, thin=2)
 eloss.save_results()
 pt = np.linspace(1, 200, 100)
 eloss.plot_RAA(save_name="RAA_cmp.png")
