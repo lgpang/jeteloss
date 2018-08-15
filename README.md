@@ -2,8 +2,8 @@
 
 ## Introduction
 
-This python package is a simple tool to extract the pt loss distribution $P(\Delta p_T)$,
-and the mean pt loss as a function of jet pt -- $\langle\Delta p_T\rangle(p_T)$,
+This python package is a simple tool to extract the pt loss distribution
+and the mean pt loss as a function of jet pt,
 from the experimental single jet RAA for AA collisions at a specific beam energy 
 (with pt spectra in proton+proton collisions at the same beam energy) or the single hadron/gamma hadron
 pt spectra (without pt spectra in proton+proton collisions).
