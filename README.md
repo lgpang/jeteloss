@@ -7,8 +7,8 @@ from measured jet RAA, using Bayesian analysis.
 
 ## Citation
 
-If you have used this package to produce presentation/publications, please cite
-the following two papers, from where one can find the detailed information of 
+If you have used this package to produce results for presentation/publications,
+please cite the following two papers, from where one can find the detailed information of 
 the underlying physics.
 
 
@@ -19,7 +19,7 @@ Step 1:
 > pip install jeteloss
 
 Step 2:
-> git clone 
+> git clone git@github.com:lgpang/jeteloss.git
 
 Step 3:
 > cd jeteloss/examples
@@ -28,7 +28,7 @@ Step 3:
 
 ### Method 2: install from local directory
 Step 1: download the code from github
-> git clone 
+> git clone git@github.com:lgpang/jeteloss.git
 
 Step 2: install jeteloss and dependences
 > cd jeteloss
@@ -52,7 +52,7 @@ Step 3: Install jeteloss module and its dependences
 > pip install jeteloss
 
 Step 4: Run the example code downloaded using:
-> git clone *
+> git clone git@github.com:lgpang/jeteloss.git
 
 > cd jeteloss/examples
 
@@ -66,6 +66,4 @@ To see how many environments do you have, use:
 > conda env list
 
 To remove one environment, use:
-> conda remove --name myenv --all
-
-
+> conda remove --name test_jeteloss --all
