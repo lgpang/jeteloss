@@ -25,8 +25,7 @@ The first row is the comment row start with "#" and data description for the fol
 "RAA_x, RAA_xerr, RAA_y, RAA_yerr" where RAA_x is the pt bins, RAA_xerr is the uncertainties of these pt bins, RAA_y is the RAA value in one A+A collisions, RAA_yerr is the uncertainties of RAA_y.
 
 ## Results
-![RAA](https://github.com/lgpang/jeteloss/tree/master/examples/figs/RAA.png)
-![Mean pt loss](https://github.com/lgpang/jeteloss/tree/master/examples/figs/mean_pt_loss.png)
+ <img src="examples/figs/RAA.png" width="360"> <img src="examples/figs/mean_pt_loss.png" width="360">
 
 ## Citation
 
