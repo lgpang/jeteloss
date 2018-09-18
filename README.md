@@ -33,6 +33,28 @@ If you have used this package to produce results for presentation/publications,
 please cite the following two papers, from where one can find the detailed information of 
 the underlying physics.
 
+@article{He:2018gks,
+      author         = "He, Yayun and Pang, Long-Gang and Wang, Xin-Nian",
+      title          = "{Bayesian extraction of jet energy loss distributions in
+                        heavy-ion collisions}",
+      year           = "2018",
+      eprint         = "1808.05310",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:1808.05310;%%"
+}
+
+@article{He:2018xjv,
+      author         = "He, Yayun and Cao, Shanshan and Chen, Wei and Luo, Tan
+                        and Pang, Long-Gang and Wang, Xin-Nian",
+      title          = "{Conspiracy behind single inclusive jet suppression in
+                        heavy-ion collisions}",
+      year           = "2018",
+      eprint         = "1809.02525",
+      archivePrefix  = "arXiv",
+      primaryClass   = "nucl-th",
+      SLACcitation   = "%%CITATION = ARXIV:1809.02525;%%"
+}
 
 ## Installation
 
